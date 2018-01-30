@@ -1,1 +1,1 @@
-# kvturva_timesheet_task_invoice
+# Custom Odoo 8 module that enables integration between timesheets, tasks, and invoicing
