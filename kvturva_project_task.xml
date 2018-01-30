@@ -1,0 +1,16 @@
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="kvturva_project_task_form">
+            <field name="name">kvturva.project.task.form</field>
+            <field name="model">project.task</field>
+            <field name="inherit_id" ref="project.view_task_form2" />
+            <field name="arch" type="xml">
+                <field name="planned_hours" position="after"  >
+
+                    <field name="product_id" options="{&quot;no_open&quot;: True}" />
+
+                </field>
+            </field>
+        </record>
+    </data>
+</openerp>
